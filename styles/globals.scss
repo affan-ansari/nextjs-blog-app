@@ -1,0 +1,72 @@
+// CSS Reset
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --boon-font-regular: 'Roboto', sans-serif;
+  --boon-primary-color: #0fbc71;
+  --boon-white-color: #ffffff;
+  --boon-secondary-color: #444444;
+  --boon-danger-color: #ea5506;
+  --boon-disabled-bg-color: #e9e9e9;
+  --boon-disabled-color: #b6b6b6;
+  --boon-outline-disabled-color: #d1d8dc;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p,
+span,
+a,
+li,
+ol,
+ul,
+button,
+label,
+select {
+  font-size: 14px;
+  font-family: inherit;
+}
