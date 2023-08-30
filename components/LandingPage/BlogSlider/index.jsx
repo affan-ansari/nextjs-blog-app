@@ -57,7 +57,6 @@ const BlogSlider = () => {
       activeIndex={index}
       onSelect={handleSelect}
       controls={false}
-      interval={null}
     >
       {renderCarouselItem()}
     </Carousel>
