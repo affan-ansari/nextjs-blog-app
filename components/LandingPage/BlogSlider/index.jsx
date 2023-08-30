@@ -15,7 +15,7 @@ const BlogSlider = () => {
   const renderCarouselItem = useCallback(
     () =>
       Array.from(Array(3).keys()).map((item, index) => (
-        <Carousel.Item key={index} bsClass={styles.item}>
+        <Carousel.Item key={index}>
           <Image
             src="/images/bg-image-1.png"
             width={1440}
